@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: elianaferioli/podinfo
-      tag: dev-hdtwcel9
+      tag: dev-testets
     replicaCount: 1
     hpa:
       enabled: false
