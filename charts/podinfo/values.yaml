@@ -7,7 +7,7 @@ backends: []
 
 ui:
   color: "#34577c"
-  message: ""
+  message: "is this working?"
   logo: ""
 
 faults:
