@@ -18,3 +18,5 @@ spec:
       repository: stefanprodan/podinfo
       tag: latest
     replicaCount: 2
+    ui:
+      message: "is this working?"
