@@ -20,3 +20,5 @@ spec:
     replicaCount: 3
     hpa:
       enabled: false
+    ui:
+      message: "is this working?"
