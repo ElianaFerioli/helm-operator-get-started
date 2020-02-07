@@ -5,17 +5,17 @@ metadata:
   name: podinfo-dev
   namespace: dev
   annotations:
-    fluxcd.io/ignore: "false"
+    fluxcd.io/automated: "true"
     filter.fluxcd.io/chart-image: glob:dev-*
 spec:
   releaseName: podinfo-dev
   chart:
-    git: git@github.com:elianaferioli/helm-operator-get-started
+    git: git@github.com:fluxcd/helm-operator-get-started
     path: charts/podinfo
     ref: master
   values:
     image:
-      repository: stefanprodan/podinfo
+      repository: elianaferioli/podinfo
       tag: dev-hdtwcel9
     replicaCount: 1
     hpa:
